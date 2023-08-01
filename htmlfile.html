@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Batman Application Form</title>
+    <meta charset="utf-08">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Batman Application form</h1>
+
+    <p id="description"><em>Do you want to be the hero of your city</em></p>
+
+    <form id="survey-form">
+
+        <fieldset id="text">
+          
+              <label for="name"id="name-label"> Name <input required id="name" type="text" placeholder="Enter your name here"></label>
+
+              <label for="email" id="email-label"> Email <input required id="email" type="email" placeholder="Enter your email here"></label>
+
+              <label for="number" id="number-label"> Age <input required id="number" type="number" min="17" max="40" placeholder="Enter your age here (from 17 to 40 only)"></label>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Select your city</legend>
+          <select id="dropdown" required>
+            <option>Select one</option>
+            <option>Gotham</option>
+            <option>Mumbai</option>
+            <option>Moscow</option>
+            <option>Sedney</option>
+            <option>Kandhar</option>
+          </select>
+        </fieldset>
+          
+        <fieldset class="bl">
+          <legend>The Superhero you want to work with...</legend>
+          <label><input type="radio" name="rad" value="r1" required> Alone</label>
+          <label><input type="radio" name="rad" value="r2"> Superman</label>
+          <label><input type="radio" name="rad" value="r3"> Wonder Woman</label>
+          <label><input type="radio" name="rad" value="r4"> The flash</label>
+          <label><input type="radio" name="rad" value="r5"> Krish</label>
+        </fieldset>
+
+        
+
+        <fieldset>
+          <legend>Why should we appoint you as Batman</legend>
+          <textarea placeholder="Write here..." required rows="5" cols="40"></textarea>
+        </fieldset>
+
+        <fieldset class="bl">
+          <label><input type="checkbox" value="tandc" required> Agree to Terms and Conditions</label>
+          <label><input type="checkbox" value="reallocate" required> Ready to reallocate</label>
+        </fieldset>
+<div class="container">
+        <input id="submit" type="submit">
+</div>
+      </form>
+  </body>
+</html>
