@@ -1,0 +1,101 @@
+body{
+  margin:0;
+  background-color: rgba(10,12,60,0.82);
+  color:rgb(186, 186, 186);
+  background-image:url("https://as2.ftcdn.net/v2/jpg/05/36/42/15/1000_F_536421507_mCKlBVXSOC9jScc7nlWqYJMNNR6RssJS.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  background-blend-mode: overlay;
+  font-family:'Poppins', sans-serif;
+}
+
+h1{
+  font-size:2em;
+}
+
+h1, p{
+  margin:2em auto 1em auto;
+  text-align: center;
+}
+
+p{
+  margin-top:-20px;
+  margin-bottom:2em;
+}
+
+form{
+  width:80%;
+  margin:auto;
+  max-width:550px;
+}
+
+fieldset{
+  border:0;
+  margin-bottom:1.5em;
+}
+
+input, select, textarea{
+  border-radius:4px;
+  width:100%;
+  height:3em;
+  margin:5px 2px;
+  font-size:14px;
+}
+
+input[type="radio"]{
+  width:unset;
+  vertical-align:middle;
+  margin:0px;
+  /* font-size:unset; */
+
+}
+
+label{
+  padding:0;
+  font-size:1.2em;
+}
+
+.bl label{
+  display:block;
+  margin:0 0 -20px auto;
+  font-size:1rem;
+}
+
+input[type="checkbox"]{
+  width:unset;
+  vertical-align:middle;
+  margin:0;
+  /* font-size:unset; */
+}
+
+input:focus, select:focus, textarea:focus{
+  outline:none;
+}
+
+textarea{
+  /* display:block; */
+  height:unset;
+}
+
+
+
+input[type="submit"]{
+  margin-top:1em;
+  width:40%;
+  max-width:150px;
+  /* text-align:center */
+  background-color:rgba(1,16,30,.9);
+  margin-bottom:30px;
+  color:white;
+}
+
+.container{
+  text-align:center;
+}
+
+
+legend{
+  font-size:1.3em;
+  margin:0;
+}
